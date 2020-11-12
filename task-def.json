@@ -3,8 +3,8 @@
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "nginx",
-      "image": "nginx",
+      "name": "httpd",
+      "image": "httpd",
       "portMappings": [
         {
           "containerPort": 80,
